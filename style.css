@@ -1,0 +1,76 @@
+html{
+    scroll-behavior: smooth;
+}
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+  
+  
+body {
+    position: relative;
+    height: 200vh;
+}
+  
+  
+.parent{
+    width: 80vw;
+    height: 450px;
+    position: relative;
+    background: orchid;
+}
+.child{
+    position: absolute;
+    background: black;
+    width: 150px;
+    height: 150px;
+    top: 50%;
+    margin: 10px;
+    
+}
+.child_2{
+    position: absolute;
+    background: black;
+    width: 150px;
+    height: 150px;
+    top: 52.5%;
+    left: 200px;
+}
+.child_3{
+    position: absolute;
+    background: black;
+    width: 150px;
+    height: 150px;
+    top: 52.7%;
+    left: 400px;
+}
+.child:hover{
+    width: 200px;
+    height: 200px;
+}
+.child_2:hover{
+    width: 200px;
+    height: 200px;
+}
+.child_3:hover{
+    width: 200px;
+    height: 200px;
+}
+.btn-back{
+    text-decoration: none;
+    padding: 8px;
+    position: fixed;
+    border-radius: 10px;
+    background-color: cadetblue;
+    right: 10px;
+    bottom: 30px;
+}
+  
+.header {
+    height: 70px;
+    width: 80vw;
+    background-color: brown;
+    position: fixed;
+    z-index: 10;
+}
